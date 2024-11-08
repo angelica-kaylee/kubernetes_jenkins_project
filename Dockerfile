@@ -22,4 +22,4 @@ RUN unzip /tmp/templatemo_588_ebook_landing.zip -d /var/www/html && \
 
 # Set up Apache to run in the foreground (important for containerization)
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
-EXPOSE 80
+EXPOSE 80 443
